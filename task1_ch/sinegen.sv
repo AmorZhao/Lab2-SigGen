@@ -16,6 +16,7 @@ counter addrCounter (
     .clk (clk), 
     .rst (rst), 
     .en (en), 
+    .incr (incr), 
     .count (address)
 ); 
 

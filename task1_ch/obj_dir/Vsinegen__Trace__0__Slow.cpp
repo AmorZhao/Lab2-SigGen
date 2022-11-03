@@ -30,6 +30,7 @@ VL_ATTR_COLD void Vsinegen___024root__trace_init_sub__TOP__0(Vsinegen___024root*
     tracep->declBit(c+1,"clk", false,-1);
     tracep->declBit(c+2,"rst", false,-1);
     tracep->declBit(c+3,"en", false,-1);
+    tracep->declBus(c+4,"incr", false,-1, 7,0);
     tracep->declBus(c+6,"count", false,-1, 7,0);
     tracep->popNamePrefix(1);
     tracep->pushNamePrefix("sineRom ");
